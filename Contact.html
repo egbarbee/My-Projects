@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> My First Website - Contact </title>
+    <base href="Website-1.html">
+    <link rel="stylesheet" href="Website-1.css">
+    <meta charset="utf-8">
+    <meta name="description" content="Contact Form">
+</head>
+
+<body>
+    <header>
+        <h1> Contact Me </h1>
+        <p> Please Fill Out the Following </p>
+    </header>
+    <section name="form">
+        <br><br>
+        <form>
+            <label for="FirstName"> First Name </label>
+            <input type="text" name="FirstName" id="FirstName" required>
+            <label for="LastName"> Last Name </label>
+            <input type="text" name="LastName" id="LastName" required>
+            <br><br>
+            <label for="Email"> Email Address </label>
+            <input type="email" placeholder="name@email.com" name="Email" id="Email" autocomplete="off" required>
+            <label for="Age"> Age Range</label>
+            <select name="Age" id="Age" required>
+                <option value="Not=Chosen"> Choose a Range</option>
+                <option value="0-17"> 0-17 </option>
+                <option value="18-25"> 18-25 </option>
+                <option value="26-40"> 26-40 </option>
+                <option value="41-65"> 41-65 </option>
+                <option value="66+"> 66+ </option>
+            </select>
+            <br><br><br>
+            <p> Answer the Following Questions and I will get back to you</p>
+            <br>
+            <div class="fieldset">
+                <fieldset>
+                    <legend> What is your favorite genre of movie? </legend>
+                    <div><label for="Horror"> Horror </label>
+                        <input type="radio" id="Horror"  value="Horror">
+                    </div>
+                    <div><label for="Science-Fiction"> Science Fiction </label>
+                        <input type="radio" id="Science-Fiction"  value="Science-Fiction">
+                    </div>
+                    <div><label for="Superhero"> Superhero </label>
+                        <input type="radio" id="Superhero"  value="Superhero">
+                    </div>
+                    <div><label for="Comedy"> Comedy </label>
+                        <input type="radio" id="Comedy"  value="Comedy">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend> What is your favorite candy? </legend>
+                    <div><label for="Chocolate"> Anything Chocolate </label>
+                        <input type="radio" id="Chocolate"  value="Chocolate">
+                    </div>
+                    <div><label for="Gummy"> Anything Gummy </label>
+                        <input type="radio" id="Gummy"  value="Gummy">
+                    </div>
+                    <div><label for="Bars"> Candy Bars </label>
+                        <input type="radio" id="Bars"  value="Bars">
+                    </div>
+                    <div><label for="Fruit"> Fruit </label>
+                        <input type="radio" id="Fruit"  value="Fruit">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend> What is your favorite State? </legend>
+                    <div><label for="Maryland"> Maryland </label>
+                        <input type="radio" id="Maryland"  value="Maryland">
+                    </div>
+                    <div><label for="New York"> New York </label>
+                        <input type="radio" id="New York"  value="New York">
+                    </div>
+                    <div><label for="Florida"> Florida </label>
+                        <input type="radio" id="Florida"  value="Florida">
+                    </div>
+                    <div><label for="California"> California </label>
+                        <input type="radio" id="California"  value="California">
+                    </div>
+                </fieldset>
+            </div>
+            <p><textarea maxlength="200" placeholder="Please type out your message here."></textarea></p>
+            <p><input type="submit" value="Smoosh me to Submit"></p>
+        </form>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,94 @@
+body{
+    background-image: linear-gradient(#8B5EA3 65% ,#582A72 95% ,#09010E 105%);
+}
+header{
+    border: 10px solid black;
+    border-bottom: none;
+    border-radius: 15px;
+    text-align: center;
+    color: #09010E;
+}
+table.nav{
+    width: 100%;
+    table-layout: fixed;
+}
+tr.nav{
+    background-color: rgba(255,255,255,.8);
+}
+tr.nav>td{
+    border-radius: 10px;
+    text-align: center;
+}
+tr.nav>td:hover{
+    background-color: rgba(154,139,155,.5) 
+}
+a{
+    text-decoration: none;
+    width: 20px;
+    color: #09010E;
+}
+a:visited{
+    color: #09010E;
+}
+
+.section{
+    max-width: 100%;
+    overflow: auto;
+    margin-bottom: 30px;
+}
+img.i1{
+    float: left;
+    width: 10%;
+    height:auto;
+    max-height: 808px;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+img.i2{
+    float: right;
+    position:relative;
+    width: 10%;
+    height:auto;
+    max-height: 808px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+details{
+    text-align: center;
+    font-size: xx-large;
+    margin-bottom: 50px;
+}
+.p4{
+    max-width: 50%;
+    line-height: 1.3em;
+}
+.p5{
+    max-width: 50%;
+    margin-left: 50%;
+    line-height: 1.3em;
+}
+
+form>p{
+    text-align: center;
+    font-weight: bold;
+}
+div.fieldset{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+fieldset{
+    width: fit-content;
+    text-align: center;
+    display: inline;
+}
+textarea{
+    margin-top: 50px;
+    text-align: center;
+    width: 50%;
+    height: 100px;
+}
+form>p:last-child{
+    margin-top: 110px;
+}
+
